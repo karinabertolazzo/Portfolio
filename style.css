@@ -317,21 +317,25 @@ footer .flex {
 
 footer .line-footer {
     padding: 20px 0;
+   
 
 }
 
 .borda {
     border-top: 2px solid #7729ac;
+    text-align: center;
 }
 
 footer .line-footer p i {
     color: blueviolet;
     font-size: 22px;
+    
 
 }
 
 footer .line-footer p a {
-    color: #fff
+    color: #fff;
+    
 }
 
 @media screen and (max-width:1020px) {
@@ -391,8 +395,11 @@ footer .line-footer p a {
         text-align: center;
     }
 
+
     .btn-social{
         text-align: center;
+        
+        
     }
 
     .img-sobre img {
@@ -400,4 +407,37 @@ footer .line-footer p a {
     }
 
     /* portfólio */
+    section.portfolio{
+        padding: 80px 8%;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex{
+        gap:60px
+    }
+
+    /* ESTILO DO FORMULÁRIO DE CONTATO */
+   
+
+    form {
+        padding: 20px;
+       
+    }
+
+    /* estilo do footer */
+
+     .borda{
+      text-align: center;
+      margin:20px;
+     
+    }
+
+    footer {
+        padding: 40px;
+    }
 }
