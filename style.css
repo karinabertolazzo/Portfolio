@@ -202,13 +202,16 @@ section.topo-do-site .flex {
 
 /* Estilos das Especialidades */
 
-#section.especialidades {
-    padding: 40px 4%;
+#especialidades {
+    padding: 80px 4%;
+    
+    
     
 }
 
-#section.especialidades .flex {
+#especialidades .flex {
     gap: 60px;
+    text-align: center;
    
 }
 
@@ -242,13 +245,16 @@ section.topo-do-site .flex {
 
 /* ESTILO DO SOBRE */
 
-#section.sobre {
+#sobre {
     padding: 80px 4%;
+    
 }
 
-#section.sobre .flex {
-    align-items: center;
+#sobre .flex {
+    
+
     gap: 60px;
+    text-align: center;
 }
 
 #sobre .txt-sobre {
@@ -258,17 +264,19 @@ section.topo-do-site .flex {
 #sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 30px;
+    
+    
 }
 
 #sobre .txt-sobre h2 span {
     color: blueviolet;
     display: block;
+    
 }
 
 #sobre .txt-sobre p {
     margin: 20px 0;
-    text-align: justify;
+    text-align: center;
 }
 
 .btn-social button {
@@ -501,9 +509,9 @@ footer .line-footer p a {
         
     }
 
-    .img-sobre img {
+    /*.img-sobre img {
         width: 50%;
-    }
+    }*/
 
     /* portfólio */
     section.portfolio{
