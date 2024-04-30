@@ -84,6 +84,12 @@ header nav.menu-desktop ul li {
 }
 
 /* Estilo do menu mobile */
+.btn-abrir-menu i{
+    color: #7729ac;
+    font-size: 40px;
+
+}
+
 .menu-mobile{
     background-color: #000;
     height: 100vh;
@@ -93,6 +99,15 @@ header nav.menu-desktop ul li {
     z-index: 99999;
     width: 0%;
     overflow: hidden;
+    transition: .5s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
 }
 
 .menu-mobile .btn-fechar {
@@ -121,6 +136,16 @@ header nav.menu-desktop ul li {
     background-color: #7729ac;
 }
 
+.overlay-menu{
+    background-color: #000000a8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0%;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
 /* Estilo do topo do site */
 
 section.topo-do-site {
