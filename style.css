@@ -150,13 +150,13 @@ section.topo-do-site .flex {
 #especialidades {
     padding: 80px 4%;
     
-    
-    
 }
 
 #especialidades .flex {
     gap: 60px;
     text-align: center;
+    display: block;
+    
    
 }
 
@@ -187,6 +187,114 @@ section.topo-do-site .flex {
     margin: 15px 0;
   
 }
+/*  
+.skills{
+    width: 80%; 
+    padding: 20px; 
+    border-radius: 20px;
+    color: #fff;
+    background-color: #8f8b8bfc;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    margin: 60px auto; 
+    text-align: center; 
+}*/
+
+.skills {
+    max-width: 500px; /* Define o tamanho máximo desejado */
+    width: 100%; /* Garante que o elemento ocupe a largura total disponível */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    color: #fff; /* Cor do texto */
+    background-color: #130e17fc; /* Cor de fundo */
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.508); /* Sombra */
+    text-align: center; /* Alinha o conteúdo ao centro */
+}
+
+.skills ul{
+    list-style: none;
+    
+    
+}
+
+.skills ul li h3 {
+    margin: 10px 0;
+    
+    
+    
+    
+}
+
+.skills .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+    
+}
+
+.barras > span {
+    height: 20px;
+    background: linear-gradient(to right, #8401fe, #9500ff);
+    position: absolute;
+    width: 0;
+    top: 0;
+    left: 0;
+    animation-fill-mode: forwards; 
+    
+}
+
+.html{
+    width: 80%;
+    animation: html 3s;
+
+}
+
+.css{
+    width: 40%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 20%;
+    animation: javascript 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+
+    
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+
+    
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+
+    
+}
+
+
 
 /* ESTILO DO SOBRE */
 
@@ -330,6 +438,8 @@ form .btn-enviar input {
     cursor: pointer;
     transition: .2s;
 }
+
+
 
 /* Estilo do rodapé */
 
@@ -482,6 +592,8 @@ footer .line-footer p a {
         padding: 20px;
        
     }
+
+    
 
     /* estilo do footer */
 
