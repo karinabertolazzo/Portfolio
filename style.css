@@ -92,6 +92,8 @@ header nav.menu-desktop a :hover {
     color: blueviolet;
     transform: scale(1.05);
     
+    
+    
 }
 
 header nav ul {
@@ -101,6 +103,20 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
+    
+    
+}
+
+.menu-desktop ul li a:hover {
+    transform: scale(5.1); 
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px #fefefe;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: .5s;
+    display: inline-block;
+    padding: 10px;
+   
 }
 
 .menu-mobile{
