@@ -187,28 +187,18 @@ section.topo-do-site .flex {
     margin: 15px 0;
   
 }
-/*  
-.skills{
-    width: 80%; 
-    padding: 20px; 
-    border-radius: 20px;
-    color: #fff;
-    background-color: #8f8b8bfc;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
-    margin: 60px auto; 
-    text-align: center; 
-}*/
+
 
 .skills {
-    max-width: 500px; /* Define o tamanho máximo desejado */
-    width: 100%; /* Garante que o elemento ocupe a largura total disponível */
-    margin: 0 auto; /* Centraliza o elemento horizontalmente */
-    padding: 20px; /* Adiciona um preenchimento interno */
-    border-radius: 20px; /* Adiciona bordas arredondadas */
-    color: #fff; /* Cor do texto */
-    background-color: #130e17fc; /* Cor de fundo */
-    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.508); /* Sombra */
-    text-align: center; /* Alinha o conteúdo ao centro */
+    max-width: 500px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 20px; 
+    color: #fff;
+    background-color: #130e17fc; 
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.508); 
+    text-align: center; 
 }
 
 .skills ul{
@@ -234,6 +224,7 @@ section.topo-do-site .flex {
     overflow: hidden;
     transition: .5s ease-in-out;
     
+
 }
 
 .barras > span {
@@ -439,7 +430,22 @@ form .btn-enviar input {
     transition: .2s;
 }
 
+/* Estilo whatsapp */
 
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000; 
+   
+   
+}
+
+.whatsapp img {
+    width: 50px; 
+    height: auto;
+    border-radius: 50%; 
+}
 
 /* Estilo do rodapé */
 
@@ -593,7 +599,10 @@ footer .line-footer p a {
        
     }
 
-    
+    /* estilo do whatsapp */
+    .whatsapp{
+        display: none;
+    }
 
     /* estilo do footer */
 
