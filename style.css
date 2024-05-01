@@ -56,6 +56,19 @@ form .btn-enviar input:hover {
 
 /* Estilo do Cabeçalho */
 
+.logo {
+    max-width: 100px;
+    
+  }
+
+
+.logo img {
+  display: block;
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
+}
+
 header {
     padding: 40px 4%;
 }
