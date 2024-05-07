@@ -14,6 +14,8 @@ html {
 body {
     background-color: black;
     height: 100vh;
+    
+    
 }
 
 .interface {
@@ -34,6 +36,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: #fff;
     
 }
 
@@ -362,6 +365,7 @@ section.topo-do-site .flex {
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
+    color: #fff;
 }
 
 /* Estilo do portfólio */
@@ -434,6 +438,7 @@ section.topo-do-site .flex {
     margin: 0 auto;
     margin-top: 10px;
     margin-right: 20px;
+    
    
 }
 
@@ -486,7 +491,7 @@ form .btn-enviar {
 form .btn-enviar input {
     width: 120px;
     background-color: blueviolet;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
