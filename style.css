@@ -413,6 +413,39 @@ section.topo-do-site .flex {
     opacity: 1;
 }
 
+.btn-social-port {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.btn-social-port button{
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: blueviolet;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 20px;
+   
+}
+
+.btn-social-port button i {
+    margin-right: 5px;
+}
+
+.btn-social-port a {
+    text-decoration: none;
+}
+
+
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
     padding: 80px 4%;
