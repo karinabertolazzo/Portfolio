@@ -14,8 +14,8 @@ html {
 body {
     background-color: black;
     height: 100vh;
-    
-    
+
+
 }
 
 .interface {
@@ -37,7 +37,7 @@ body {
     cursor: pointer;
     transition: .2s;
     color: #fff;
-    
+
 }
 
 h2.titulo {
@@ -63,15 +63,15 @@ form .btn-enviar input:hover {
 
 .logo {
     max-width: 100px;
-    
-  }
+
+}
 
 
 .logo img {
-  display: block;
-  width: 60%;
-  height: auto;
-  border-radius: 50px;
+    display: block;
+    width: 60%;
+    height: auto;
+    border-radius: 50px;
 }
 
 header {
@@ -90,15 +90,14 @@ header a {
     display: inline-block;
     transition: .2s;
     font-weight: bold
-    
 }
 
 header nav.menu-desktop a :hover {
     color: blueviolet;
     transform: scale(1.05);
-    
-    
-    
+
+
+
 }
 
 header nav ul {
@@ -108,12 +107,12 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
-    
-    
+
+
 }
 
 .menu-desktop ul li a:hover {
-    transform: scale(5.1); 
+    transform: scale(5.1);
     border-radius: 30px;
     box-shadow: 0px 0px 8px #fefefe;
     transform: scale(1.05);
@@ -121,10 +120,10 @@ header nav.menu-desktop ul li {
     transition: .5s;
     display: inline-block;
     padding: 10px;
-   
+
 }
 
-.menu-mobile{
+.menu-mobile {
     display: none;
 }
 
@@ -164,10 +163,10 @@ section.topo-do-site .flex {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     border-radius: 50%;
-    width: 300px; 
+    width: 300px;
     height: auto;
-    
-   
+
+
 }
 
 @keyframes flutuar {
@@ -185,15 +184,15 @@ section.topo-do-site .flex {
 
 #especialidades {
     padding: 80px 4%;
-    
+
 }
 
 #especialidades .flex {
     gap: 60px;
     text-align: center;
     display: block;
-    
-   
+
+
 }
 
 #especialidades .especialidades-box {
@@ -202,7 +201,7 @@ section.topo-do-site .flex {
     border-radius: 20px;
     margin-top: 45px;
     transition: .4s;
-    
+
 
 
 }
@@ -215,43 +214,43 @@ section.topo-do-site .flex {
 #especialidades .especialidades-box i {
     font-size: 70px;
     color: blueviolet;
-    
+
 }
 
 #especialidades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
-  
+
 }
 
 
 .skills {
-    max-width: 500px; 
-    width: 100%; 
-    margin: 0 auto; 
-    padding: 20px; 
-    border-radius: 20px; 
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
     color: #fff;
-    background-color: #130e17fc; 
-    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.508); 
-    text-align: center; 
+    background-color: #130e17fc;
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.508);
+    text-align: center;
 }
 
-.skills ul{
+.skills ul {
     list-style: none;
-    
-    
+
+
 }
 
 .skills ul li h3 {
     margin: 10px 0;
-    
-    
-    
-    
+
+
+
+
 }
 
-.skills .barras{
+.skills .barras {
     background-color: #ccc;
     display: block;
     height: 20px;
@@ -259,66 +258,71 @@ section.topo-do-site .flex {
     position: relative;
     overflow: hidden;
     transition: .5s ease-in-out;
-    
+
 
 }
 
-.barras > span {
+.barras>span {
     height: 20px;
     background: linear-gradient(to right, #8401fe, #9500ff);
     position: absolute;
     width: 0;
     top: 0;
     left: 0;
-    animation-fill-mode: forwards; 
-    
+    animation-fill-mode: forwards;
+
 }
 
-.comunicacao{
+.comunicacao {
     width: 80%;
     animation: comunicacao 5s;
 
 }
 
-.grupo{
+.grupo {
     width: 100%;
     animation: grupo 6s;
 }
 
-.foco{
+.foco {
     width: 100%;
     animation: foco 8s;
 }
 
 @keyframes comunicacao {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 100%;
     }
 
-    
+
 }
+
 @keyframes grupo {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 100%;
     }
 
-    
+
 }
+
 @keyframes foco {
-    0%{
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 100%;
     }
 
-    
+
 }
 
 
@@ -327,11 +331,11 @@ section.topo-do-site .flex {
 
 #sobre {
     padding: 80px 4%;
-    
+
 }
 
 #sobre .flex {
-    
+
 
     gap: 60px;
     text-align: center;
@@ -344,14 +348,16 @@ section.topo-do-site .flex {
 #sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
-    
-    
+
+
 }
 
 #sobre .txt-sobre h2 span {
-    color: blueviolet;
-    
-    
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 #sobre .txt-sobre p {
@@ -364,7 +370,7 @@ section.topo-do-site .flex {
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -426,15 +432,15 @@ section.topo-do-site .flex {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    
+
 }
 
-.btn-social-port button{
+.btn-social-port button {
     width: 120px;
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
     font-size: 18px;
     color: #fff;
     cursor: pointer;
@@ -442,8 +448,8 @@ section.topo-do-site .flex {
     margin: 0 auto;
     margin-top: 10px;
     margin-right: 20px;
-    
-   
+
+
 }
 
 .btn-social-port button i {
@@ -494,7 +500,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
     color: #fff;
     font-weight: 700;
     cursor: pointer;
@@ -503,19 +509,19 @@ form .btn-enviar input {
 
 /* Estilo whatsapp */
 
-.whatsapp{
+.whatsapp {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    z-index: 1000; 
-   
-   
+    z-index: 1000;
+
+
 }
 
 .whatsapp img {
-    width: 50px; 
+    width: 50px;
     height: auto;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 /* Estilo do rodapé */
@@ -528,12 +534,12 @@ footer {
 
 footer .flex {
     justify-content: flex-end;
-    
+
 }
 
 footer .line-footer {
     padding: 20px 0;
-   
+
 
 }
 
@@ -543,16 +549,18 @@ footer .line-footer {
 }
 
 footer .line-footer p i {
-    color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 22px;
-    
+
 
 }
 
 footer .line-footer p a {
     color: #fff;
-    
-    
+
+
 }
 
 @media screen and (max-width:1020px) {
@@ -560,14 +568,14 @@ footer .line-footer p a {
     /* CLASSES GERAIS */
     .flex {
         flex-direction: column;
-        
+
     }
 
-    h2.titulo{
+    h2.titulo {
         font-size: 34px;
-        line-height:30px ;
-        
-        
+        line-height: 30px;
+
+
     }
 
     /* CABEÇALHO */
@@ -581,7 +589,7 @@ footer .line-footer p a {
     section.topo-do-site.flex {
         gap: 40px
     }
-    
+
 
     section.topo-do-site {
         padding: 20px 8%;
@@ -589,58 +597,53 @@ footer .line-footer p a {
 
     .topo-do-site h1 {
         font-size: 30px;
-         text-align: center
-
+        text-align: center
     }
 
     .topo-do-site p {
-        
-         text-align: center
 
+        text-align: center
     }
 
     .topo-do-site .img-topo-site img {
         width: 100%;
     }
 
-    
 
-    
+
+
 
     /* especialidades */
     #especialidades {
         padding: 40px 8%;
         text-align: center;
         margin-top: 30px;
-        
+
 
     }
 
     /* sobre */
-    #section.sobre{
+    #section.sobre {
         padding: 80px 8%;
     }
 
-    #sobre .txt-sobre h2{
+    #sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 35px;
         text-align: center;
     }
 
-    #sobre .txt-sobre p{
-        
+    #sobre .txt-sobre p {
+
         line-height: 20px;
         text-align: center;
         margin: 30px
-        
-        
-        
     }
 
-    .btn-social{
+    .btn-social {
         text-align: center;
-        
-        
+
+
     }
 
     /*.img-sobre img {
@@ -648,39 +651,39 @@ footer .line-footer p a {
     }*/
 
     /* portfólio */
-    #portfolio{
+    #portfolio {
         padding: 80px 8%;
     }
 
-    .img-port{
+    .img-port {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    #portfolio .flex{
-        gap:60px
+    #portfolio .flex {
+        gap: 60px
     }
 
     /* ESTILO DO FORMULÁRIO DE CONTATO */
-   
+
 
     form {
         padding: 20px;
-       
+
     }
 
     /* estilo do whatsapp */
-    .whatsapp{
+    .whatsapp {
         display: none;
     }
 
     /* estilo do footer */
 
-     .borda{
-      text-align: center;
-      margin:20px;
-     
+    .borda {
+        text-align: center;
+        margin: 20px;
+
     }
 
     footer {
@@ -692,31 +695,31 @@ footer .line-footer p a {
     }
 
     /* Estilo do menu mobile */
-.btn-abrir-menu i{
-    color: #7729ac;
-    font-size: 40px;
+    .btn-abrir-menu i {
+        color: #7729ac;
+        font-size: 40px;
 
-}
+    }
 
-.menu-mobile{
-    background-color: #000;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
-    transition: .5s;
-    display: block; 
+    .menu-mobile {
+        background-color: #000;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        overflow: hidden;
+        transition: .5s;
+        display: block;
     }
 }
 
-.menu-mobile.abrir-menu{
+.menu-mobile.abrir-menu {
     width: 50%;
 }
 
-.menu-mobile.abrir-menu ~ .overlay-menu{
+.menu-mobile.abrir-menu~.overlay-menu {
     display: block;
 }
 
@@ -724,17 +727,17 @@ footer .line-footer p a {
     padding: 20px 5%;
 }
 
-.menu-mobile .btn-fechar i{
-    color:#7729ac;
+.menu-mobile .btn-fechar i {
+    color: #7729ac;
     font-size: 30px;
 
 }
 
-.menu-mobile nav ul{
+.menu-mobile nav ul {
     text-align: right;
 }
 
-.menu-mobile nav ul li a{
+.menu-mobile nav ul li a {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
@@ -742,16 +745,16 @@ footer .line-footer p a {
     display: block;
 }
 
-.menu-mobile nav ul li a:hover{
+.menu-mobile nav ul li a:hover {
     background-color: #7729ac;
 }
 
-.overlay-menu{
+.overlay-menu {
     background-color: #000000a8;
     width: 100%;
     height: 100%;
     position: fixed;
-    top:0%;
+    top: 0%;
     left: 0;
     z-index: 88888;
     display: none;
