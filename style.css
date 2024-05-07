@@ -139,7 +139,7 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: #fff;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 40px;
 
 }
@@ -267,48 +267,48 @@ section.topo-do-site .flex {
     
 }
 
-.html{
+.comunicacao{
     width: 80%;
-    animation: html 3s;
+    animation: comunicacao 5s;
 
 }
 
-.css{
-    width: 40%;
-    animation: css 3s;
+.grupo{
+    width: 100%;
+    animation: grupo 6s;
 }
 
-.javascript{
-    width: 20%;
-    animation: javascript 3s;
+.foco{
+    width: 100%;
+    animation: foco 8s;
 }
 
-@keyframes html {
+@keyframes comunicacao {
     0%{
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 100%;
     }
 
     
 }
-@keyframes css {
+@keyframes grupo {
     0%{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 100%;
     }
 
     
 }
-@keyframes javascript {
+@keyframes foco {
     0%{
         width: 0%;
     }
     100%{
-        width: 20%;
+        width: 100%;
     }
 
     
@@ -343,7 +343,7 @@ section.topo-do-site .flex {
 
 #sobre .txt-sobre h2 span {
     color: blueviolet;
-    display: block;
+    
     
 }
 
@@ -406,7 +406,7 @@ section.topo-do-site .flex {
     font-weight: 600;
     color: #fff;
     opacity: 0;
-    transition: .5s;
+    transition: .1s;
 }
 
 .overlay:hover {
