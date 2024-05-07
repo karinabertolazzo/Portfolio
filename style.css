@@ -31,7 +31,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(99, 13, 179);
+    background: linear-gradient(to right, #ff8a00, #e52e71);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -47,7 +47,9 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 button:hover,
@@ -148,7 +150,9 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site span {
-    color: blueviolet;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .topo-do-site .txt-topo-site p {
