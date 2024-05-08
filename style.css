@@ -553,8 +553,10 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #7729ac;
+    border-top: 2px solid #ff8a00;
     text-align: center;
+    
+    
 }
 
 footer .line-footer p i {
