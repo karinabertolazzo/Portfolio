@@ -704,8 +704,10 @@ footer .line-footer p a {
 
     /* Estilo do menu mobile */
     .btn-abrir-menu i {
-        color: #7729ac;
+        background: linear-gradient(to right, #ff8a00, #e52e71);
         font-size: 40px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
     }
 
@@ -736,8 +738,11 @@ footer .line-footer p a {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #7729ac;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
+
 
 }
 
@@ -754,7 +759,7 @@ footer .line-footer p a {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #7729ac;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
 }
 
 .overlay-menu {
